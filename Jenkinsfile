@@ -20,7 +20,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Akshay-Pakade/InfraFramework-Pipeline.git'
+                    url: 'https://github.com/KamalChauhan1234/ProdOps-Pipeline.git'
             }
         }
 
